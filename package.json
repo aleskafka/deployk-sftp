@@ -1,0 +1,36 @@
+{
+  "name": "deployk-sftp",
+  "version": "0.1.0",
+  "description": "sftp protocol for deployk package",
+  "license": "MIT",
+  "keywords": [
+    "deployk",
+    "remote",
+    "file transfer",
+    "sftp"
+  ],
+  "maintainers": [
+    "Ales Kafka <ales.kafka@gmail.com>"
+  ],
+  "engines": {
+    "node": ">=0.9.0"
+  },
+  "scripts": [
+    "nodeunit"
+  ],
+  "dependencies": {
+    "deployk-utils": "^0.1.0",
+    "ssh2": "^0.4.6"
+  },
+  "devDependencies": {},
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleskafka/deployk-sftp.git"
+  },
+  "author": "Ales Kafka <ales.kafka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/aleskafka/deployk-sftp/issues"
+  },
+  "homepage": "https://github.com/aleskafka/deployk-sftp"
+}
